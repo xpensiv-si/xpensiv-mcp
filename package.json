@@ -1,0 +1,31 @@
+{
+  "name": "xpensiv-mcp",
+  "version": "0.1.1",
+  "description": "Stdio MCP server for Xpensiv design checks. Wraps the Xpensiv REST API (/api/v1/checks).",
+  "type": "module",
+  "bin": {
+    "xpensiv-mcp": "bin/xpensiv-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpensiv-si/xpensiv-mcp"
+  },
+  "homepage": "https://xpensiv.si",
+  "bugs": {
+    "url": "https://github.com/xpensiv-si/xpensiv-mcp/issues"
+  },
+  "mcpName": "io.github.xpensiv-si/xpensiv",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
